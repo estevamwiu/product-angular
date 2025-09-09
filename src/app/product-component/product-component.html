@@ -2,11 +2,6 @@
 
 <div class="display-4 text-center">Cadastro de Produto</div>
   <form [formGroup]="formGroupProduct">
-    
-    <div class="mb-3">
-    <label for="inputId" class="form-label">ID</label>
-    <input formControlName="id" type="text" class="form-control" id="inputId">
-  </div>
 
   <div class="mb-3">
     <label for="inputName" class="form-label">Nome</label>
@@ -27,6 +22,7 @@
 </form>
 <br>Total de produtos: {{products.length}}<br><br>
 
+
 <table class="table">
   <thead>
     <tr>
@@ -46,5 +42,6 @@
   </tbody>
 </table>
 </div>
+
 
 
